@@ -5,8 +5,8 @@ require "./lib/ar/sequence/version"
 Gem::Specification.new do |spec|
   spec.name          = "ar-sequence"
   spec.version       = AR::Sequence::VERSION
-  spec.authors       = ["Nando Vieira"]
-  spec.email         = ["fnando.vieira@gmail.com"]
+  spec.authors       = ["Nando Vieira", "Matthieu Ciappara"]
+  spec.email         = ["fnando.vieira@gmail.com", "ciappa_m@modulotech.fr"]
   spec.required_ruby_version = Gem::Requirement.new(">= 2.7.0")
   spec.metadata      = {"rubygems_mfa_required" => "true"}
   spec.summary       = "Add support for PostgreSQL's SEQUENCE on " \

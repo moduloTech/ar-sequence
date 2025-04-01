@@ -20,6 +20,8 @@ module AR
       end
 
       def sequences(stream)
+        return unless @connection.respond_to?(:check_sequences)
+
         sequences = @connection.check_sequences
         search_path = retrieve_search_path
 

@@ -11,6 +11,10 @@ Prefix your message with one of the following:
 - [Security] in case of vulnerabilities.
 -->
 
+## v0.3.0 - 2025-04-01
+
+- [Added] Prevent `check_sequences` from executing if connection adapter is not PG.
+
 ## v0.2.1 - 2021-12-21
 
 - [Changed] Dump schema names that aren't on the default search path.
